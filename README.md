@@ -24,7 +24,7 @@ If you use this code for your research, please cite our paper:
 ```
 
 ## Usage
-Create and use a python venv:
+Create and use a python venv (local):
 
 * `python3 -m venv venv`
 * `source venv/bin/activate`
@@ -34,4 +34,8 @@ One time formatting:
 * `venv/bin/isort GDD_code`
 * `venv/bin/black GDD_code`
 
-cd to GDD_code and run the scripts - requires `cudnn.enabled`
+`cd` to GDD_code and run the scripts - requires `cudnn.enabled` (i.e. GPU, e.g. Colab)
+
+## Issues
+- `python3 GDD_demo_HS.py` results in error `OSError: could not read bytes`
+- `python3 GDD_demo_PAN.py` -> it is necessary to create `result/PAN/` folder (added in this fork)
