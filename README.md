@@ -22,3 +22,16 @@ If you use this code for your research, please cite our paper:
   year={2020}
 }
 ```
+
+## Usage
+Create and use a python venv:
+
+* `python3 -m venv venv`
+* `source venv/bin/activate`
+* `pip3 install -r requirements.txt`
+
+One time formatting:
+* `venv/bin/isort GDD_code`
+* `venv/bin/black GDD_code`
+
+cd to GDD_code and run the scripts - requires `cudnn.enabled`
