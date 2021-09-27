@@ -37,5 +37,5 @@ One time formatting:
 `cd` to GDD_code and run the scripts - requires `cudnn.enabled` (i.e. GPU, e.g. Colab)
 
 ## Issues
-- `python3 GDD_demo_HS.py` results in error `OSError: could not read bytes`
+- `python3 GDD_demo_HS.py` results in error `OSError: could not read bytes`. Strangely no issue on second run
 - `python3 GDD_demo_PAN.py` -> it is necessary to create `result/PAN/` folder (added in this fork)
