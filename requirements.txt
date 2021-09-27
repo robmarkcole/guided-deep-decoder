@@ -1,9 +1,8 @@
 black
 isort
-
 scipy
 torch
 torchvision
-scikit-vision
+scikit-image
 matplotlib
 pillow
