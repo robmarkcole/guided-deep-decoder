@@ -1,2 +1,9 @@
 black
 isort
+
+scipy
+torch
+torchvision
+scikit-vision
+matplotlib
+pillow
